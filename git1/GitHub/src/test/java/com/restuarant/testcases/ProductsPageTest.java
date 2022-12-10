@@ -37,7 +37,7 @@ public class ProductsPageTest  {
 	pg = new ProductsPage(driver);
 		pg.Supplier("Lee's Suppliers");
 		pg.ApplyFilter();
-		wt.sleep(3000);
+		wt.waitForJSandJQueryToLoad(driver, 30);
 		Assert.assertTrue(pg.Results());
 	}
 	@Test(priority = 3, enabled = true)
