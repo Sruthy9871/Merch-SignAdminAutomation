@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+
+   
+      <parameter name="Browser" value="chrome"></parameter>
+	<parameter name="invalidusername" value="adminq" />
+		<parameter name="invalidpassword" value="passwordd" />
+ 	<parameter name="username" value="admin" />
+		<parameter name="password" value="password" />
+		<parameter name="blankUsername" value="" />
+			<parameter name="blankPassword" value="" />
+	    <classes>
+			 <class name="com.restuarant.testcases.LoginPageTest" />
+			  <class name="com.restuarant.testcases.HomePageTest" />
+				<class name="com.restuarant.testcases.ProductsPageTest" />   
+      <class name="com.restuarant.testcases.StoresPageTest"/>
+           <class name="com.restuarant.testcases.ExpensePageTest"/>
+           
+            <class name="com.restuarant.testcases.SalesPageTest"/>
+        
+            <class name="com.restuarant.testcases.PeoplesPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

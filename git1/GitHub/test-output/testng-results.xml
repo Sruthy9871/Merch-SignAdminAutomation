@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="10" total="40" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="148954" started-at="2022-12-10T11:40:28 IST" finished-at="2022-12-10T11:42:57 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="148954" started-at="2022-12-10T11:40:28 IST" finished-at="2022-12-10T11:42:57 IST">
+      <class name="com.restuarant.testcases.ProductsPageTest">
+        <test-method status="PASS" signature="ShowDropDown()[pri:0, instance:com.restuarant.testcases.ProductsPageTest@78186a70]" name="ShowDropDown" duration-ms="4255" started-at="2022-12-10T11:41:24 IST" finished-at="2022-12-10T11:41:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShowDropDown -->
+        <test-method status="PASS" signature="SelectSupplier()[pri:1, instance:com.restuarant.testcases.ProductsPageTest@78186a70]" name="SelectSupplier" duration-ms="5236" started-at="2022-12-10T11:41:28 IST" finished-at="2022-12-10T11:41:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSupplier -->
+        <test-method status="FAIL" signature="ViewProduct()[pri:2, instance:com.restuarant.testcases.ProductsPageTest@78186a70]" name="ViewProduct" duration-ms="4633" started-at="2022-12-10T11:41:33 IST" finished-at="2022-12-10T11:41:38 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [TVM Apple shake] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [TVM Apple shake] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.restuarant.testcases.ProductsPageTest.ViewProduct(ProductsPageTest.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewProduct -->
+        <test-method status="PASS" signature="SelectAllSupplier()[pri:3, instance:com.restuarant.testcases.ProductsPageTest@78186a70]" name="SelectAllSupplier" duration-ms="1941" started-at="2022-12-10T11:41:38 IST" finished-at="2022-12-10T11:41:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAllSupplier -->
+      </class> <!-- com.restuarant.testcases.ProductsPageTest -->
+      <class name="com.restuarant.testcases.SalesPageTest">
+        <test-method status="PASS" signature="SalesSearch()[pri:0, instance:com.restuarant.testcases.SalesPageTest@df27fae]" name="SalesSearch" duration-ms="1714" started-at="2022-12-10T11:42:35 IST" finished-at="2022-12-10T11:42:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesSearch -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.SalesPageTest@df27fae]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-12-10T11:42:37 IST" finished-at="2022-12-10T11:42:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesSearch status=SUCCESS method=SalesPageTest.SalesSearch()[pri:0, instance:com.restuarant.testcases.SalesPageTest@df27fae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.restuarant.testcases.SalesPageTest -->
+      <class name="com.restuarant.testcases.StoresPageTest">
+        <test-method status="PASS" signature="SelectStore()[pri:1, instance:com.restuarant.testcases.StoresPageTest@306279ee]" name="SelectStore" duration-ms="5042" started-at="2022-12-10T11:41:40 IST" finished-at="2022-12-10T11:41:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectStore -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.StoresPageTest@306279ee]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:41:45 IST" finished-at="2022-12-10T11:41:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectStore status=SUCCESS method=StoresPageTest.SelectStore()[pri:1, instance:com.restuarant.testcases.StoresPageTest@306279ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="SearchStore()[pri:2, instance:com.restuarant.testcases.StoresPageTest@306279ee]" name="SearchStore" duration-ms="3118" started-at="2022-12-10T11:41:45 IST" finished-at="2022-12-10T11:41:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchStore -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.StoresPageTest@306279ee]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:41:48 IST" finished-at="2022-12-10T11:41:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchStore status=SUCCESS method=StoresPageTest.SearchStore()[pri:2, instance:com.restuarant.testcases.StoresPageTest@306279ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.restuarant.testcases.StoresPageTest -->
+      <class name="com.restuarant.testcases.HomePageTest">
+        <test-method status="PASS" signature="language()[pri:0, instance:com.restuarant.testcases.HomePageTest@481a15ff]" name="language" duration-ms="5250" started-at="2022-12-10T11:41:08 IST" finished-at="2022-12-10T11:41:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- language -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.HomePageTest@481a15ff]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:41:13 IST" finished-at="2022-12-10T11:41:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=language status=SUCCESS method=HomePageTest.language()[pri:0, instance:com.restuarant.testcases.HomePageTest@481a15ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="SelectLangEnglish()[pri:1, instance:com.restuarant.testcases.HomePageTest@481a15ff]" name="SelectLangEnglish" duration-ms="4737" started-at="2022-12-10T11:41:13 IST" finished-at="2022-12-10T11:41:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLangEnglish -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.HomePageTest@481a15ff]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:41:18 IST" finished-at="2022-12-10T11:41:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectLangEnglish status=SUCCESS method=HomePageTest.SelectLangEnglish()[pri:1, instance:com.restuarant.testcases.HomePageTest@481a15ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="products()[pri:2, instance:com.restuarant.testcases.HomePageTest@481a15ff]" name="products" duration-ms="5618" started-at="2022-12-10T11:41:18 IST" finished-at="2022-12-10T11:41:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- products -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.HomePageTest@481a15ff]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:41:24 IST" finished-at="2022-12-10T11:41:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=products status=SUCCESS method=HomePageTest.products()[pri:2, instance:com.restuarant.testcases.HomePageTest@481a15ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.restuarant.testcases.HomePageTest -->
+      <class name="com.restuarant.testcases.ExpensePageTest">
+        <test-method status="PASS" signature="ExpenseSearch()[pri:0, instance:com.restuarant.testcases.ExpensePageTest@704921a5]" name="ExpenseSearch" duration-ms="7423" started-at="2022-12-10T11:41:48 IST" finished-at="2022-12-10T11:41:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExpenseSearch -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.ExpensePageTest@704921a5]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-12-10T11:41:55 IST" finished-at="2022-12-10T11:41:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExpenseSearch status=SUCCESS method=ExpensePageTest.ExpenseSearch()[pri:0, instance:com.restuarant.testcases.ExpensePageTest@704921a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="addExpence()[pri:1, instance:com.restuarant.testcases.ExpensePageTest@704921a5]" name="addExpence" duration-ms="3072" started-at="2022-12-10T11:41:55 IST" finished-at="2022-12-10T11:41:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpence -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.ExpensePageTest@704921a5]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:41:58 IST" finished-at="2022-12-10T11:41:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExpence status=SUCCESS method=ExpensePageTest.addExpence()[pri:1, instance:com.restuarant.testcases.ExpensePageTest@704921a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="searchExpence()[pri:2, instance:com.restuarant.testcases.ExpensePageTest@704921a5]" name="searchExpence" duration-ms="278" started-at="2022-12-10T11:41:58 IST" finished-at="2022-12-10T11:41:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchExpence -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.ExpensePageTest@704921a5]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:41:59 IST" finished-at="2022-12-10T11:41:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchExpence status=SUCCESS method=ExpensePageTest.searchExpence()[pri:2, instance:com.restuarant.testcases.ExpensePageTest@704921a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="deleteExpence()[pri:3, instance:com.restuarant.testcases.ExpensePageTest@704921a5]" name="deleteExpence" duration-ms="18299" started-at="2022-12-10T11:41:59 IST" finished-at="2022-12-10T11:42:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExpence -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.ExpensePageTest@704921a5]" name="aftermethod" is-config="true" duration-ms="2" started-at="2022-12-10T11:42:17 IST" finished-at="2022-12-10T11:42:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteExpence status=SUCCESS method=ExpensePageTest.deleteExpence()[pri:3, instance:com.restuarant.testcases.ExpensePageTest@704921a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="deleteExpenceCancel()[pri:4, instance:com.restuarant.testcases.ExpensePageTest@704921a5]" name="deleteExpenceCancel" duration-ms="18267" started-at="2022-12-10T11:42:17 IST" finished-at="2022-12-10T11:42:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExpenceCancel -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.ExpensePageTest@704921a5]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:42:35 IST" finished-at="2022-12-10T11:42:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteExpenceCancel status=SUCCESS method=ExpensePageTest.deleteExpenceCancel()[pri:4, instance:com.restuarant.testcases.ExpensePageTest@704921a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.restuarant.testcases.ExpensePageTest -->
+      <class name="com.restuarant.testcases.LoginPageTest">
+        <test-method status="PASS" signature="beforemethod(java.lang.String)[pri:0, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="beforemethod" is-config="true" duration-ms="8713" started-at="2022-12-10T11:40:29 IST" finished-at="2022-12-10T11:40:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="verifyLogo()[pri:1, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="verifyLogo" duration-ms="20" started-at="2022-12-10T11:40:38 IST" finished-at="2022-12-10T11:40:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:40:38 IST" finished-at="2022-12-10T11:40:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=LoginPageTest.verifyLogo()[pri:1, instance:com.restuarant.testcases.LoginPageTest@22eeefeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="invalidLogin(java.lang.String,java.lang.String)[pri:2, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="invalidLogin" duration-ms="4889" started-at="2022-12-10T11:40:38 IST" finished-at="2022-12-10T11:40:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adminq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-12-10T11:40:43 IST" finished-at="2022-12-10T11:40:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginPageTest.invalidLogin(java.lang.String,java.lang.String)[pri:2, instance:com.restuarant.testcases.LoginPageTest@22eeefeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="invalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="invalidPassword" duration-ms="4433" started-at="2022-12-10T11:40:43 IST" finished-at="2022-12-10T11:40:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:40:47 IST" finished-at="2022-12-10T11:40:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPassword status=SUCCESS method=LoginPageTest.invalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.restuarant.testcases.LoginPageTest@22eeefeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="invalidUsername(java.lang.String,java.lang.String)[pri:4, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="invalidUsername" duration-ms="3969" started-at="2022-12-10T11:40:47 IST" finished-at="2022-12-10T11:40:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adminq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:40:51 IST" finished-at="2022-12-10T11:40:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidUsername status=SUCCESS method=LoginPageTest.invalidUsername(java.lang.String,java.lang.String)[pri:4, instance:com.restuarant.testcases.LoginPageTest@22eeefeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="blankUsername(java.lang.String,java.lang.String)[pri:5, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="blankUsername" duration-ms="3675" started-at="2022-12-10T11:40:51 IST" finished-at="2022-12-10T11:40:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsername -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:40:55 IST" finished-at="2022-12-10T11:40:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blankUsername status=SUCCESS method=LoginPageTest.blankUsername(java.lang.String,java.lang.String)[pri:5, instance:com.restuarant.testcases.LoginPageTest@22eeefeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="blankPassword(java.lang.String,java.lang.String)[pri:6, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="blankPassword" duration-ms="3386" started-at="2022-12-10T11:40:55 IST" finished-at="2022-12-10T11:40:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adminq]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPassword -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:40:58 IST" finished-at="2022-12-10T11:40:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blankPassword status=SUCCESS method=LoginPageTest.blankPassword(java.lang.String,java.lang.String)[pri:6, instance:com.restuarant.testcases.LoginPageTest@22eeefeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="blankUsernamePassword(java.lang.String,java.lang.String)[pri:7, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="blankUsernamePassword" duration-ms="3325" started-at="2022-12-10T11:40:58 IST" finished-at="2022-12-10T11:41:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernamePassword -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="aftermethod" is-config="true" duration-ms="2" started-at="2022-12-10T11:41:01 IST" finished-at="2022-12-10T11:41:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blankUsernamePassword status=SUCCESS method=LoginPageTest.blankUsernamePassword(java.lang.String,java.lang.String)[pri:7, instance:com.restuarant.testcases.LoginPageTest@22eeefeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="login()[pri:8, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="login" duration-ms="6756" started-at="2022-12-10T11:41:01 IST" finished-at="2022-12-10T11:41:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-12-10T11:41:08 IST" finished-at="2022-12-10T11:41:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginPageTest.login()[pri:8, instance:com.restuarant.testcases.LoginPageTest@22eeefeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.restuarant.testcases.LoginPageTest@22eeefeb]" name="closebrowser" is-config="true" duration-ms="291" started-at="2022-12-10T11:42:57 IST" finished-at="2022-12-10T11:42:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.restuarant.testcases.LoginPageTest -->
+      <class name="com.restuarant.testcases.PeoplesPageTest">
+        <test-method status="PASS" signature="SelectPeople()[pri:1, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="SelectPeople" duration-ms="4480" started-at="2022-12-10T11:42:37 IST" finished-at="2022-12-10T11:42:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPeople -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="aftermethod" is-config="true" duration-ms="6" started-at="2022-12-10T11:42:42 IST" finished-at="2022-12-10T11:42:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectPeople status=SUCCESS method=PeoplesPageTest.SelectPeople()[pri:1, instance:com.restuarant.testcases.PeoplesPageTest@24a35978] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="SearchWaiternotPresent()[pri:2, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="SearchWaiternotPresent" duration-ms="256" started-at="2022-12-10T11:42:42 IST" finished-at="2022-12-10T11:42:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWaiternotPresent -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="aftermethod" is-config="true" duration-ms="3" started-at="2022-12-10T11:42:42 IST" finished-at="2022-12-10T11:42:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWaiternotPresent status=SUCCESS method=PeoplesPageTest.SearchWaiternotPresent()[pri:2, instance:com.restuarant.testcases.PeoplesPageTest@24a35978] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="SearchWaiterPresent()[pri:3, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="SearchWaiterPresent" duration-ms="3155" started-at="2022-12-10T11:42:42 IST" finished-at="2022-12-10T11:42:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWaiterPresent -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-12-10T11:42:45 IST" finished-at="2022-12-10T11:42:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWaiterPresent status=SUCCESS method=PeoplesPageTest.SearchWaiterPresent()[pri:3, instance:com.restuarant.testcases.PeoplesPageTest@24a35978] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="SelectCustomer()[pri:4, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="SelectCustomer" duration-ms="4695" started-at="2022-12-10T11:42:45 IST" finished-at="2022-12-10T11:42:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCustomer -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="aftermethod" is-config="true" duration-ms="3" started-at="2022-12-10T11:42:50 IST" finished-at="2022-12-10T11:42:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectCustomer status=SUCCESS method=PeoplesPageTest.SelectCustomer()[pri:4, instance:com.restuarant.testcases.PeoplesPageTest@24a35978] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="SearchCustomernotPresent()[pri:5, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="SearchCustomernotPresent" duration-ms="3202" started-at="2022-12-10T11:42:50 IST" finished-at="2022-12-10T11:42:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCustomernotPresent -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="aftermethod" is-config="true" duration-ms="1" started-at="2022-12-10T11:42:53 IST" finished-at="2022-12-10T11:42:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchCustomernotPresent status=SUCCESS method=PeoplesPageTest.SearchCustomernotPresent()[pri:5, instance:com.restuarant.testcases.PeoplesPageTest@24a35978] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="SearchCustomerPresent()[pri:6, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="SearchCustomerPresent" duration-ms="192" started-at="2022-12-10T11:42:53 IST" finished-at="2022-12-10T11:42:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCustomerPresent -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-12-10T11:42:53 IST" finished-at="2022-12-10T11:42:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchCustomerPresent status=SUCCESS method=PeoplesPageTest.SearchCustomerPresent()[pri:6, instance:com.restuarant.testcases.PeoplesPageTest@24a35978] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:7, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="addNewCustomer" duration-ms="3978" started-at="2022-12-10T11:42:53 IST" finished-at="2022-12-10T11:42:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.restuarant.testcases.PeoplesPageTest@24a35978]" name="aftermethod" is-config="true" duration-ms="4" started-at="2022-12-10T11:42:57 IST" finished-at="2022-12-10T11:42:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewCustomer status=SUCCESS method=PeoplesPageTest.addNewCustomer()[pri:7, instance:com.restuarant.testcases.PeoplesPageTest@24a35978] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.restuarant.testcases.PeoplesPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
